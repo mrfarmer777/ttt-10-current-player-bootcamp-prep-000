@@ -11,7 +11,7 @@ end
 
 
 def current_player(board)
-  num_turns = turns_taken(board)
+  num_turns = turns_count(board)
   if(num_turns%2==0)
     "X"
   else
