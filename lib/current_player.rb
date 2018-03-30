@@ -11,11 +11,5 @@ end
 
 
 def current_player(board)
-  player_char = turn_count%2=~0 ? "X" : "O"
-
-  if(num_turns%2==0)
-    "X"
-  else
-    "O"
-  end
+  player_char = turn_count%2 =~ 0 ? "X" : "O"
 end
